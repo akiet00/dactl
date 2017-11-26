@@ -7,7 +7,7 @@ tags:
   - undergrad
 description: >
 
-hero: https://images.unsplash.com/photo-1468530986413-2c93495ed020?auto=format&fit=crop&w=1349&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+hero: https://unsplash.com/collections/570708/travel-by-plane
 overlay: purple
 published: true
 ---
