@@ -7,6 +7,7 @@ tags:
   - howto
 hero: https://source.unsplash.com/collection/345758/
 overlay: orange
+published: false
 ---
 
 In order to use dactl's post images with overlays you'll need to learn how to set them. You do that in post's YAML frontmatter and I'll show you how.
@@ -59,7 +60,7 @@ hero: /assets/hero.jpg
 ```
 
 ### Hero overlay
-You can choose the color of the image overlay here. 
+You can choose the color of the image overlay here.
 Currently you can choose from five colors: purple, red, green, blue, orange.
 If you don't choose a color it will default to a light black.
 ```yaml
