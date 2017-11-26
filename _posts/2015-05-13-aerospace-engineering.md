@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aerospace Engineering Project
+title: Aircraft Modeling Project
 tags:
   - aerospace
   - mechanical
