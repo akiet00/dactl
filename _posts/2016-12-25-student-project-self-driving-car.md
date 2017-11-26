@@ -24,7 +24,7 @@ This project was a *class* related project.
 
 **Source code**
 Function that read 5 different IR sensor values and compute the differential factor
-~~~javascript
+'''javascript
 void read_sensor_values()
 {
 sensor[0] = digitalRead(A0); // Reading input from IR sensors
@@ -74,11 +74,10 @@ error = 5;
 }
 Serial.print(&quot;Error value: &quot;); Serial.println(error);
 }
-~~~
-##
+'''
 
 <p>My PID Function</p>
-~~~javascript
+'''javascript
 void PID()
 {
 P = error; // Proportional factor
@@ -93,7 +92,6 @@ Serial.print(&quot;I-value: &quot;); Serial.println(I);
 Serial.print(&quot;D-value: &quot;); Serial.println(D);
 Serial.print(&quot;PID-value: &quot;); Serial.println(PID_value);
 }
-~~~
-##
+'''
 
 After feeding the sensors' data into the PID controller, we can feed the output of the PID controller into a function which controls the speed of the motor.
