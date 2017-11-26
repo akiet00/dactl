@@ -2,9 +2,9 @@
 layout: post
 title: 'Minnetronix Inc.'
 tags:
-  - work experience
+  - work
   - internship
-  - medical industry
+  - biomedical
 hero: https://media.licdn.com/media-proxy/ext?w=450&h=450&f=n&hash=c35rlKOlDeAhfC7Msqh9Y%2Bp7%2BDs%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Ua9hFUXyxIv5bqTokG5_AlESo-TA3PiDmHp5YzdMSC8OtiLLPH48wMJeixFyBljIbHxBmWjUcL-YpSvI4t-3NW0Ysmgf1oFbBIigHs
 overlay: orange
 published: true

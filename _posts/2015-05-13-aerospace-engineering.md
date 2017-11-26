@@ -2,9 +2,10 @@
 layout: post
 title: Aerospace Engineering Project
 tags:
-  - aerospace mech
-  - researching
-  - undergrad
+  - aerospace
+  - mechanical
+  - engineering
+  - project
 description: >
   Aircraft modeling project. Research and build an aircraft model. 6ft by 3ft dimension.
 hero: https://images.unsplash.com/photo-1483375801503-374c5f660610?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D

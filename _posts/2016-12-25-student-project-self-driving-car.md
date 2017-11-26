@@ -2,8 +2,10 @@
 layout: post
 title: Autonomous Robot
 tags:
-  - robotics
-  - undergrad
+  - programming
+  - mechanical
+  - project
+  - howto
 description: >
   Autonomous vehicle. PID controlled line following robot.
 hero: https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
