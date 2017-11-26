@@ -12,7 +12,7 @@ published: true
 ---
 Autonomous line following robot driven by PID controller.
 {: .lead}
-<!--break-->
+<!–-break-–>
 
 **About this project**
 This project was a *class* related project.
@@ -75,7 +75,8 @@ error = 5;
 Serial.print(&quot;Error value: &quot;); Serial.println(error);
 }
 ~~~
-<br>
+
+
 My PID Function
 ~~~js
 void PID()
@@ -93,5 +94,5 @@ Serial.print(&quot;D-value: &quot;); Serial.println(D);
 Serial.print(&quot;PID-value: &quot;); Serial.println(PID_value);
 }
 ~~~
-<br><br>
+
 After feeding the sensors' data into the PID controller, we can feed the output of the PID controller into a function which controls the speed of the motor.
