@@ -77,7 +77,7 @@ Serial.print(&quot;Error value: &quot;); Serial.println(error);
 ~~~
 
 
-My PID Function
+<p>My PID Function</p>
 ~~~js
 void PID()
 {
@@ -94,5 +94,4 @@ Serial.print(&quot;D-value: &quot;); Serial.println(D);
 Serial.print(&quot;PID-value: &quot;); Serial.println(PID_value);
 }
 ~~~
-
 After feeding the sensors' data into the PID controller, we can feed the output of the PID controller into a function which controls the speed of the motor.
