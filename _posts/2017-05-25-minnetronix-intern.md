@@ -22,7 +22,7 @@ At Minnetronix, I was mainly responsible for 3 main tasks: 1. Designed and draft
 ## My reflection of my first internship
 Given that in a person's undergrad career, we only have roughly 4 chances of holding an internship, I thought it's worthwhile to reflect on each experience as we finished them.
 
-## Accomplishment
+## Accomplishments
 * Get a feel for what it's like workin in biomedical inldustry as a mechanical engineer <br>
 * First internship experience <br>
 *  Do I like working in biomedical industry? or aerospace? or mechatronics? or combination
