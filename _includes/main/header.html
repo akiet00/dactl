@@ -20,6 +20,14 @@
             </a>
         </li>
         {% endif %}
+        {% if site.author.linkedin %}
+        <li>
+          <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" class="smaller">
+            <span class="icon-linkedin"></span>
+          </a>
+        </li>
+        {% endif %}
+        
         {% if site.author.stackoverflow %}
         <li>
             <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller">
