@@ -13,6 +13,7 @@
     </div>
     <div class="social">
       <ul>
+        <!---
         {% if site.author.youtube %}
         <li>
             <a href="https://youtube.com/{{ site.author.youtube }}" target="_blank" class="smaller">
@@ -20,6 +21,7 @@
             </a>
         </li>
         {% endif %}
+        --->
         {% if site.author.linkedin %}
         <li>
           <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" class="smaller">
@@ -27,7 +29,14 @@
           </a>
         </li>
         {% endif %}
-        
+        {% if site.author.dribbble %}
+        <li>
+          <a href="https://dribbble.com/{{ site.author.dribbble }}" target="_blank" class="smaller">
+            <span class="icon-dribbble"></span>
+          </a>
+        </li>
+        {% endif %}
+        <!---
         {% if site.author.stackoverflow %}
         <li>
             <a href="https://stackoverflow.com/{{ site.author.stackoverflow }}" target="_blank" class="smaller">
@@ -35,6 +44,7 @@
             </a>
         </li>
         {% endif %}
+        --->
         {% if site.author.twitter %}
         <li>
             <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" class="smaller">
@@ -59,7 +69,7 @@
         {% if site.author.rss == true %}
         <li>
             <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank">
-                <span class="icon-rss_feed"></span>
+                <span class="icon-podcast"></span>
             </a>
         </li>
         {% endif %}
