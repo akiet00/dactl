@@ -10,5 +10,5 @@ published: true
   <h2>Codepen</h2>
 </div>
 
-<p data-height="268" data-theme-id="0" data-slug-hash="cCyba" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/Tyriar/pen/cCyba'>The <samp> element</a> by Daniel Imms (<a href='http://codepen.io/Tyriar'>@Tyriar</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//codepen.io/assets/embed/ei.js"></script>
+<p data-height="265" data-theme-id="dark" data-slug-hash="yPRyBW" data-default-tab="css,result" data-user="akiet00" data-embed-version="2" data-pen-title="Bounded Wave Loader" class="codepen">See the Pen <a href="https://codepen.io/akiet00/pen/yPRyBW/">Bounded Wave Loader</a> by Kiet (<a href="https://codepen.io/akiet00">@akiet00</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
