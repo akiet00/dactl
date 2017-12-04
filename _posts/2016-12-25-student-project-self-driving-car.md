@@ -59,12 +59,12 @@ void read_sensor_values()
   else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0))
 
   {
-    if (previous_error &lt; 0)
+    if (previous_error >= 0)
       error = -5;
     else
       error = 5;
     }
-    Serial.print(&quot;Error value: &quot;); Serial.println(error);
+    Serial.print('Error value: '); Serial.println(error);
 }
 ```
 
