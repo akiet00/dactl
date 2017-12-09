@@ -1,4 +1,27 @@
 <footer>
+    <div id="contactForm">
+      <p style="font-size: 16px; font-weight: bold;">Leave a Message</p>
+      <form action="https://formspree.io/tranx959@umn.edu" method="POST">
+        <input type="text" name="name" placeholder="Your name">
+        <input type="email" name="_replyto" placeholder="Your email">
+        <input type="textarea" name="Messsage" placeholder="What's up?">
+        <input type="text" name="_gotcha" style="display:none">
+        <input type="submit" value="Send">
+        <!--redirect to current page-->
+        <input type="hidden" name="_next" value=".">
+      </form>
+    </div>
     <span>{{ site.blog.description }}</span>
     <span>written by {{ site.author.fullname }}</span>
+
 </footer>
+
+<style>
+#contactForm{
+  padding:20em;
+  border: 1px solid #999;
+}
+#contactForm>input{
+  box-shadow: inset 5px 5px 0 0 rgba(0,0,0,0.6);
+}
+</style>
