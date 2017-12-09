@@ -6,7 +6,7 @@
         <input type="email" name="_replyto" placeholder="Your email">
         <input type="textarea" name="Messsage" placeholder="What's up?">
         <input type="text" name="_gotcha" style="display:none">
-        <input type="submit" value="Send">
+        <input type="submit" value="Send" id="submitBtn">
         <!--redirect to current page-->
         <input type="hidden" name="_next" value=".">
       </form>
@@ -18,10 +18,21 @@
 
 <style>
 #contactForm{
-  padding:20em;
+  padding:1em;
+  margin:10px;
   border: 1px solid #999;
 }
-#contactForm>input{
+#contactForm input{
   box-shadow: inset 5px 5px 0 0 rgba(0,0,0,0.6);
+  border-radius: 10px;
+  border: 1px solid #777;
+}
+#submitBtn{
+  padding: 10px 20px;
+  background: #3ca2fc;
+  font-size: 13px;
+}
+#submitBtn:hover{
+  background: #70bcff;
 }
 </style>
