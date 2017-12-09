@@ -1,7 +1,7 @@
 <footer>
-    <div id="contactForm">
+    <div id="contactForm-div">
       <p style="font-size: 16px; font-weight: bold;">Leave a Message</p>
-      <form action="https://formspree.io/tranx959@umn.edu" method="POST">
+      <form id="form" action="https://formspree.io/tranx959@umn.edu" method="POST">
         <input type="text" name="name" placeholder="Your name">
         <input type="email" name="_replyto" placeholder="Your email">
         <input type="textarea" name="Messsage" placeholder="What's up?">
@@ -17,12 +17,15 @@
 </footer>
 
 <style>
-#contactForm{
+#form{
+  display: grid;
+}
+#contactForm-div{
   padding:1em;
   margin:10px;
   border: 1px solid #999;
 }
-#contactForm input{
+#form input{
   padding: 10px;
   border: none;
   border-bottom: 1px solid #3ca2fc;
@@ -33,6 +36,9 @@
   padding: 10px 20px;
   background: #3ca2fc;
   font-size: 13px;
+  width: 80px;
+  margin: auto;
+  text-align: center;
 }
 #submitBtn:hover{
   background: #70bcff;
