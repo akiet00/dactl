@@ -1,3 +1,6 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <footer>
   <div id="contactForm-div">
     <p style="font-size: 16px; font-weight: bold;">Leave a Message</p>
@@ -21,6 +24,14 @@
   </div>
   <span>{{ site.blog.description }}</span>
   <span>written by {{ site.author.fullname }}</span>
+  <div>
+    <i class="fa fa-linkedin-square">
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank"></a>
+    </i>
+    <i class="fa fa-github">
+        <a href="https://github.com/{{ site.author.github }}" target="_blank"></a>
+    </i>
+  </div>
 
 </footer>
 
