@@ -25,8 +25,8 @@ This project was a *class* related project.
 * PID controlled
 
 **Source code**
-Function that read 5 different IR sensor values and compute the differential factor
-```
+Function that reads 5 different IR sensor values and compute the differential factor
+```c
 void read_sensor_values()
 {
   sensor[0] = digitalRead(A0); // Reading input from IR sensors
