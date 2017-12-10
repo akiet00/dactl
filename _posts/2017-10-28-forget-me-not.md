@@ -17,7 +17,11 @@ published: true
 Never worry about over or under-watering your plants! The Forget Me Not plant watering system is here to help!
 {: .lead}
 <!–-break-–>
-## Objectives
+## My Objectives
 * Attend the IoT hack display
-*
-*
+* Improve my web coding skills
+* Learn how to use REST API
+* Build a working application
+* Network with fellow hackers
+
+## What I've done
