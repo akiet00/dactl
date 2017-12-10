@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 'CANSAT Competition'
+title: 'Internet of Things Hack Day 2017'
 tags:
-  - aerospace
-  - mechanical
+  - IoT
   - programming
-hero: https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1352&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
-overlay: red
+hero: https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/558/698/datas/gallery.jpg
+overlay: purple
 published: true
 ---
 <div style="margin-bottom:20px; padding: 5px; border: 1px solid #999; border-radius: 5px; background:#e2edff; color: #000;">
