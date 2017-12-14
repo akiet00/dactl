@@ -26,46 +26,6 @@ This project was a *class* related project.
 
 **Source code**
 Function that reads 5 different IR sensor values and compute the differential factor
-```c
-void read_sensor_values()
-{
-  sensor[0] = digitalRead(A0); // Reading input from IR sensors
-  sensor[1] = digitalRead(A1);
-  sensor[2] = digitalRead(A2);
-  sensor[3] = digitalRead(A3);
-  sensor[4] = digitalRead(A4);
-  for (int i = 0; i &lt; 5; i++) {
-    Serial.print(sensor[i]); Serial.print(&quot; &quot;);
-  }
-  Serial.println();
-  if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 1))
-        error = 4;
-  else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 1) && (sensor[4] == 1))
-      error = 3;
-  else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 1) && (sensor[4] == 0))
-      error = 2;
-  else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 1) && (sensor[3] == 1) && (sensor[4] == 0))
-      error = 1;
-  else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 1) && (sensor[3] == 0) && (sensor[4] == 0))
-      error = 0;
-  else if ((sensor[0] == 0) && (sensor[1] == 1) && (sensor[2] == 1) && (sensor[3] == 0) && (sensor[4] == 0))
-      error = -1;
-  else if ((sensor[0] == 0) && (sensor[1] == 1) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0))
-      error = -2;
-  else if ((sensor[0] == 1) && (sensor[1] == 1) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0))
-      error = -3;
-  else if ((sensor[0] == 1) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0))
-      error = -4;
-  else if ((sensor[0] == 0) && (sensor[1] == 0) && (sensor[2] == 0) && (sensor[3] == 0) && (sensor[4] == 0))
-
-  {
-    if (previous_error >= 0)
-      error = -5;
-    else
-      error = 5;
-    }
-    Serial.print('Error value: '); Serial.println(error);
-}
-```
+<script src="https://gist.github.com/akiet00/b1f96b9f38a9ac8a0d5cffc6df268b83.js"></script>
 
 After feeding the sensors' data into the PID controller, we can feed the output of the PID controller into a function which controls the speed of the motor.
