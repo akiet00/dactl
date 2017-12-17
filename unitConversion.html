@@ -1,0 +1,34 @@
+
+<h2>Engineering Unit Conversion</h2>
+<div id="container">
+  <div class="child-container">
+    <h3>Metric to Imperial Units</h3>
+    <div>
+      <label id="metric-imperial-result"></label>
+      <input type='text' placeholder="0.00">
+    </div>
+  </div>
+
+  <div class="child-container">
+    <h3>Imperial to Metric Units</h3>
+    <div></div>
+  </div>
+</div>
+
+<style>
+#container{
+  margin:0; padding: 0;
+  display: grid;
+  grid-gap: 10px;
+  -webkit-display: grid;
+  grid-template-columns: 100px 1fr;
+}
+#container > child-container:nth-child(1){
+  grid-column: 1;
+  grid-row:    1;
+}
+#container > child-container:nth-child(2){
+  grid-row:    1;
+  grid-column: 2;
+}
+</style>
